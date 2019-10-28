@@ -13,16 +13,16 @@ The quests have been processed with the following way:
 - Using RACK in order to get the keywords of the quest (https://pypi.org/project/python-rack/)
 
 The dataset (Dataset_WoW_quests.txt) use the following tags :
-- <|startoftext|> & <|endoftext|> : Indicate start and end of an object (quest)
-- <EOK> : Indicate the end of the keyword list
-- <EOT> : Indicate the end of the quest's title
-- <EOD> : Indicate the end of the quest's description
-- <EOP> : Indicate the end of the quest's progress description (ex : "Did you finished ?"), can be False
-- <EOA> : Indicate the end of the quest's accomplishment description (ex : "Congratulations !"), can be False
+- \<|startoftext|\> & \<|endoftext|\> : Indicate start and end of an object (quest)
+- \<EOK\> : Indicate the end of the keyword list
+- \<EOT\> : Indicate the end of the quest's title
+- \<EOD\> : Indicate the end of the quest's description
+- \<EOP\> : Indicate the end of the quest's progress description (ex : "Did you finished ?"), can be False
+- \<EOA\> : Indicate the end of the quest's accomplishment description (ex : "Congratulations !"), can be False
   
 Improvments incoming :
-- <EOC> : A list of the characters in the quest based on the informations scrapped on WoWPedia
-- <EOL> : A list of the locations in the quest based on the informations scrapped on WoWPedia
+- \<EOC\> : A list of the characters in the quest based on the informations scrapped on WoWPedia
+- \<EOL\> : A list of the locations in the quest based on the informations scrapped on WoWPedia
 
 ## SF Short Stories
 Download links available :
@@ -35,7 +35,7 @@ The texts have been processed with the following way:
 - Using RACK in order to get the keywords of the text (https://pypi.org/project/python-rack/)
 
 The dataset (Dataset_SF_Short_Stories.txt) use the following tags :
-- <|startoftext|> & <|endoftext|> : Indicate start and end of an object (text)
-- <EOK> : Indicate the end of the keyword list
-- <EOC> : Indicate the end of the characters list
-- <EOT> : Indicate the end of the text's title
+- \<|startoftext|\> & \<|endoftext|\> : Indicate start and end of an object (text)
+- \<EOK\> : Indicate the end of the keyword list
+- \<EOC\> : Indicate the end of the characters list
+- \<EOT\> : Indicate the end of the text's title
