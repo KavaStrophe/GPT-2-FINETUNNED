@@ -21,7 +21,7 @@ The dataset (Dataset_WoW_quests.txt) use the following tags :
 - \<EOP\> : Indicate the end of the quest's progress description (ex : "Did you finished ?"), can be False
 - \<EOA\> : Indicate the end of the quest's accomplishment description (ex : "Congratulations !"), can be False
   
-Improvments incoming :
+Future improvements :
 - \<EOC\> : A list of the characters in the quest based on the informations scrapped on WoWPedia
 - \<EOL\> : A list of the locations in the quest based on the informations scrapped on WoWPedia
 
