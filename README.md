@@ -1,7 +1,8 @@
 # GPT-2 Fine tuned
 This repository contains the links to 3 fine tuned GPT-2 models, the datasets used to train them are available in the /datasets folder. I fine tuned the models until reaching a loss lower than 1.0.
 The best setting to generate interresting output seems to be top_k = 40 with top_p = 0.9.
-I use the GPT-2 Simple package : https://github.com/minimaxir/gpt-2-simple
+I use the GPT-2 Simple package : 
+https://github.com/minimaxir/gpt-2-simple
 
 ## World of Warcraft - Quests
 Download links available : 
