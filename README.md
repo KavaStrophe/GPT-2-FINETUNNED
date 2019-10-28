@@ -1,6 +1,7 @@
 # GPT-2 Fine tuned
 This repository contains the links to 3 fine tuned GPT-2 models, the datasets used to train them are available in the /datasets folder. I fine tuned the models until reaching a loss lower than 1.0.
 The best setting to generate interresting output seems to be top_k = 40 with top_p = 0.9.
+I use the GPT-2 Simple package : https://github.com/minimaxir/gpt-2-simple
 
 ## World of Warcraft - Quests
 Download links available : 
@@ -26,7 +27,7 @@ Future improvements :
 - \<EOL\> : A list of the locations in the quest based on the informations scrapped on WoWPedia
 
 ## SF Short Stories
-Download links available :
+Download links available : 
 - 355M :
 - 117M : 
 
@@ -40,3 +41,7 @@ The dataset (Dataset_SF_Short_Stories.txt) use the following tags :
 - \<EOK\> : Indicate the end of the keyword list
 - \<EOC\> : Indicate the end of the characters list
 - \<EOT\> : Indicate the end of the text's title
+
+Future improvements :
+- Remove texts with more than 1024 tokens (hardcoded maximum of GPT-2)
+- Sentiment analysis of each sentence of each text to analyze the progression through the narration.
