@@ -9,7 +9,7 @@ Download links available :
 - 335M :
 - 117M :
 
-The quests have been processed with the following way:
+The quests have been processed with the following method:
 - Scraped from wowhead.com
 - Suppression of all the quests without description
 - Suppression of all the quests with the same title & description
@@ -32,7 +32,7 @@ Download links available :
 - 355M :
 - 117M : 
 
-The texts have been processed with the following way:
+The texts have been processed with the following method:
 - Scraped from 365tomorrows.com
 - Characters & Locations indentification with NeuroNER (https://github.com/Franck-Dernoncourt/NeuroNER)
 - Using RACK in order to get the keywords of the text (https://pypi.org/project/python-rack/)
