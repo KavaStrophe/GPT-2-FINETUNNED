@@ -9,8 +9,8 @@ You can build an HTTP API with the other project of minimaxir (my hero) on Googl
 
 ## World of Warcraft - Quests
 Download links available : 
-- 335M :
-- 117M :
+- 335M : https://drive.google.com/file/d/1HbxOZKQNeihsrQAOx35bYK_CNxd6pI4W/view?usp=sharing
+- 117M : 
 
 The quests have been processed with the following method:
 - Scraped from wowhead.com
@@ -32,7 +32,7 @@ Future improvements :
 
 ## SF Short Stories
 Download links available : 
-- 355M :
+- 355M : https://drive.google.com/file/d/1pivgs312raYzINDm_3BwAOAgMpM_qlPg/view?usp=sharing
 - 117M : 
 
 The texts have been processed with the following method:
