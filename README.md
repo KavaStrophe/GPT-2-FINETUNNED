@@ -2,12 +2,15 @@
 This repository contains the links to 3 fine tuned GPT-2 models, the datasets used to train them are available in the /datasets folder. I fine tuned the models until reaching a loss lower than 1.0.
 The best setting to generate interresting output seems to be top_k = 40 with top_p = 0.9.
 I use the GPT-2 Simple package : 
-https://github.com/minimaxir/gpt-2-simple
+- https://github.com/minimaxir/gpt-2-simple
+
+You can build an HTTP API with the other project of minimaxir (my hero) on Google Cloud Run with : 
+- https://github.com/minimaxir/gpt-2-cloud-run
 
 ## World of Warcraft - Quests
 Download links available : 
-- 335M :
-- 117M :
+- 335M : https://drive.google.com/file/d/1HbxOZKQNeihsrQAOx35bYK_CNxd6pI4W/view?usp=sharing
+- 117M : 
 
 The quests have been processed with the following method:
 - Scraped from wowhead.com
@@ -29,7 +32,7 @@ Future improvements :
 
 ## SF Short Stories
 Download links available : 
-- 355M :
+- 355M : https://drive.google.com/file/d/1pivgs312raYzINDm_3BwAOAgMpM_qlPg/view?usp=sharing
 - 117M : 
 
 The texts have been processed with the following method:
